@@ -14,11 +14,11 @@
 3.	Microsoft Excel
 
 ### Where to download the data?
-- Crime events 2019: 
-- Crime events 2020: 
-- Crime events with coordinates 0515-0615, 2020:
-- Crime number statistics 2019: 
-- Crime number statistics 2020:
+- Crime events 2019: <https://github.com/stccenter/crime-data-analysis/tree/master/Crime%20events%202019>
+- Crime events 2020: <https://github.com/stccenter/crime-data-analysis/tree/master/Crime%20events%202020>
+- Crime events with coordinates 0515-0615, 2020: <https://github.com/stccenter/crime-data-analysis/tree/master/Crime%20events%20with%20coordinates%200515-0615%2C%202020>
+- Crime number statistics 2019: <https://github.com/stccenter/crime-data-analysis/tree/master/Crime%20number%20statistics%202019>
+- Crime number statistics 2020: <https://github.com/stccenter/crime-data-analysis/tree/master/Crime%20number%20statistics%202020>
 - Socioeconomic data
 
 
@@ -115,6 +115,3 @@ Run the below scripts. Install required packages for the scripts.
     2.	variables that can be changed:
         a.	input_path – root directory of input file.
         b.	output_path – root directory of output image.
-
-
-
