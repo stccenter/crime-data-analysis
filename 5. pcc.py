@@ -1,9 +1,10 @@
 import pandas as pd
-from scipy.stats import pearsonr
 
 input_file = './Factors.csv'
-x = 'population density'
-y = 'diversity index'
+output_file = './pcc.csv'
 
 df = pd.read_csv(input_file, sep=',')
-pearsonr(df[x], df[y])
+variables = list(df.columns)[3:]
+x = df[variables]
+corrs = x.corr(method='pearson')
+corrs.to_csv(output_file, sep=',', index=False, header=True)
