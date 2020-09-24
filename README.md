@@ -109,7 +109,7 @@ This script is used to calculate Person Correlation Coefficient value between di
             10.	auto_play – Automatically play the animation across time.
             11.	display_index – Zoom level where the points reach maximum intensity (as intensity scales with zoom).
 
-8.	Lasso.R  getting an error
+8.	Lasso.R
 This script is used to build a Lasso logistic regression model and export the coefficient of independent variables.
     1.	package: glmnet
     2.	variables that can be changed
