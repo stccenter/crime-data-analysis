@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-09-23 17:36:34
- * @LastEditTime: 2020-09-24 17:20:09
+ * @LastEditTime: 2020-09-24 17:22:24
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \github_test\crime_readme.md
@@ -109,7 +109,7 @@ This script is used to calculate Person Correlation Coefficient value between di
             j.	auto_play – Automatically play the animation across time.
             k.	display_index – Zoom level where the points reach maximum intensity (as intensity scales with zoom).
 
-8.	Lasso.R – getting an error
+8.	Lasso.R  getting an error
 This script is used to build a Lasso logistic regression model and export the coefficient of independent variables.
     1.	package: glmnet
     2.	variables that can be changed
