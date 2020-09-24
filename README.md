@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-09-23 17:36:34
- * @LastEditTime: 2020-09-24 17:22:24
+ * @LastEditTime: 2020-09-24 17:25:58
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \github_test\crime_readme.md
@@ -73,56 +73,56 @@ This script is used to calculate Person Correlation Coefficient value between di
     This script is used to analyze crime hotspots of a given day. A heat map layer will be created.
         1.	package: pandas, folium
         2.	variables that can be changed:
-            a.	input_file – input file path.
-            b.	output_file – output file path.
-            c.	date – the date of crime events of the form mm/dd/yy
-            d.	crime_type – the type of crime, including Total, Arrest, Arson, Assault, Burglary, Robbery, Shooting, Theft, Vandalism, and Other
+            1.	input_file – input file path.
+            2.	output_file – output file path.
+            3.	date – the date of crime events of the form mm/dd/yy
+            4.	crime_type – the type of crime, including Total, Arrest, Arson, Assault, Burglary, Robbery, Shooting, Theft, Vandalism, and Other
         3.	parameters:
-            a.	location – Latitude and Longitude of Map (Northing, Easting).
-            b.	zoom_start – Initial zoom level for the map.
-            c.  tiles – Map tileset to use.
-            d.	control_scale – Whether to add a control scale on the map.
-            e.	data – List of points of the form [lat, lng] or [lat, lng, weight].
-            f.	max_val – Maximum point intensity.
-            g.	min_opacity – The minimum opacity the heat will start at.
-            h.	radius – Radius of each “point” of the heatmap.
-            i.	blur – Amount of blur.
-            j.	gradient – Color gradient config.
-            k.	max_zoom – Zoom level where the points reach maximum intensity (as intensity scales with zoom).
+            1.	location – Latitude and Longitude of Map (Northing, Easting).
+            2.	zoom_start – Initial zoom level for the map.
+            3.  tiles – Map tileset to use.
+            4.	control_scale – Whether to add a control scale on the map.
+            5.	data – List of points of the form [lat, lng] or [lat, lng, weight].
+            6.	max_val – Maximum point intensity.
+            7.	min_opacity – The minimum opacity the heat will start at.
+            8.	radius – Radius of each “point” of the heatmap.
+            9.	blur – Amount of blur.
+            10.	gradient – Color gradient config.
+            11.	max_zoom – Zoom level where the points reach maximum intensity (as intensity scales with zoom).
     2. hotspot_withtime.py
     This script is used to analyze crime hotspots of a number of days. A dynamic heat map layer with time slider will be created.
         1.	package: pandas, folium
         2.	variables that can be changed:
-            a.	input_file – input file path.
-            b.	output_file – output file path.
-            c.	crime_type – the type of crime, including Total, Arrest, Arson, Assault, Burglary, Robbery, Shooting, Theft, Vandalism, and Other
+            1.	input_file – input file path.
+            2.	output_file – output file path.
+            3.	crime_type – the type of crime, including Total, Arrest, Arson, Assault, Burglary, Robbery, Shooting, Theft, Vandalism, and Other
         3.	parameters:
-            a.	location – Latitude and Longitude of Map (Northing, Easting).
-            b.	zoom_start – Initial zoom level for the map.
-            c.	tiles – Map tileset to use.
-            d.	control_scale – Whether to add a control scale on the map.
-            e.	data – list of list of points of the form [lat, lng] or [lat, lng, weight].
-            f.	index – Index giving the label (or timestamp) of the elements of data.
-            g.	max_opacity – The maximum opacity for the heatmap.
-            h.	min_opacity – The minimum opacity the heat will start at.
-            i.	radius – Radius of each “point” of the heatmap.
-            j.	auto_play – Automatically play the animation across time.
-            k.	display_index – Zoom level where the points reach maximum intensity (as intensity scales with zoom).
+            1.	location – Latitude and Longitude of Map (Northing, Easting).
+            2.	zoom_start – Initial zoom level for the map.
+            3.	tiles – Map tileset to use.
+            4.	control_scale – Whether to add a control scale on the map.
+            5.	data – list of list of points of the form [lat, lng] or [lat, lng, weight].
+            6.	index – Index giving the label (or timestamp) of the elements of data.
+            7.	max_opacity – The maximum opacity for the heatmap.
+            8.	min_opacity – The minimum opacity the heat will start at.
+            9.	radius – Radius of each “point” of the heatmap.
+            10.	auto_play – Automatically play the animation across time.
+            11.	display_index – Zoom level where the points reach maximum intensity (as intensity scales with zoom).
 
 8.	Lasso.R  getting an error
 This script is used to build a Lasso logistic regression model and export the coefficient of independent variables.
     1.	package: glmnet
     2.	variables that can be changed
-        a.	setwd – current working path.
-        b.	loadx – input file name with independent variables.
-        c.	loady - input file name with dependent variable.
+        1.	setwd – current working path.
+        2.	loadx – input file name with independent variables.
+        3.	loady - input file name with dependent variable.
     3.	parameters:
-        a.	x – matrix of predictor variables
-        b.	y – the response or outcome variable, which is a binary variable.
-        c.	family – the response type. Use “binomial” for a binary outcome variable.
-        d.	alpha – the elasticnet mixing parameter. Allowed values include:
-            -	“1”: for lasso regression
-            -	“0”: for ridge regression
-            -	a value between 0 and 1 (say 0.3) for elastic net regression.
-        e.	type.measure – the loss used for cross-validation.
-        f.	lambda – a numeric value defining the amount of shrinkage. Should be specify by analyst.
+        1.	x – matrix of predictor variables
+        2.	y – the response or outcome variable, which is a binary variable.
+        3.	family – the response type. Use “binomial” for a binary outcome variable.
+        4.	alpha – the elasticnet mixing parameter. Allowed values include:
+            1.	“1”: for lasso regression
+            2.	“0”: for ridge regression
+            3.	a value between 0 and 1 (say 0.3) for elastic net regression.
+        5.	type.measure – the loss used for cross-validation.
+        6.	lambda – a numeric value defining the amount of shrinkage. Should be specify by analyst.
