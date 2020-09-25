@@ -128,4 +128,6 @@ This script is used to build a Lasso logistic regression model and export the co
         6.	lambda – a numeric value defining the amount of shrinkage. Should be specify by analyst.
         
  **Tutorial video**
+ [<img src="https://github.com/stccenter/crime-data-analysis/blob/master/Screenshot.png" width="60%">](https://www.youtube.com/watch?v=PLUqbXJegk0&feature=youtu.be)
+
  
