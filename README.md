@@ -126,3 +126,6 @@ This script is used to build a Lasso logistic regression model and export the co
             3.	a value between 0 and 1 (say 0.3) for elastic net regression.
         5.	type.measure – the loss used for cross-validation.
         6.	lambda – a numeric value defining the amount of shrinkage. Should be specify by analyst.
+        
+ **Tutorial video**
+ 
