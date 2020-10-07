@@ -49,7 +49,7 @@ This script is used to generate a line chart of seven crime types.
         a.	input_path – root directory of input file.
         b.	output_path – root directory of output image.
 5.	pcc.py
-This script is used to calculate Person Correlation Coefficient value between different variables.
+This script is used to calculate Pearson Correlation Coefficient value between different variables.
     1.	package: pandas
     2.	variables that can be changed:
         a)	input_file – input file path.
